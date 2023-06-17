@@ -32,7 +32,7 @@ hi IncSearch           guifg=#222222 ctermfg=0     guibg=#bb7744 ctermbg=13    g
 hi Search              guifg=#222222 ctermfg=0     guibg=#5f875f ctermbg=10
 hi StatusLine          guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0     gui=bold cterm=bold
 hi StatusLineNC        guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=bold cterm=bold
-hi VertSplit           guifg=#222222 ctermfg=0     guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
+hi VertSplit           guifg=#1c1c1c ctermfg=234   guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
 hi TabLine             guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
 hi TabLineSel          guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0
 hi Folded              guifg=#B36D43 ctermfg=3     guibg=#222222 ctermbg=0
@@ -142,63 +142,73 @@ hi! link gitCommitFile           Directory
 hi! link gitCommitUntrackedFile  gitCommitUnmergedFile
 hi! link gitCommitDiscardedType  gitCommitUnmergedType
 hi! link gitCommitDiscardedFile  gitCommitUnmergedFile
-
 hi! link vimSetSep    Delimiter
 hi! link vimContinue  Delimiter
 hi! link vimHiAttrib  Constant
 
 hi lessVariable             guifg=#B36D43 ctermfg=11
 hi! link lessVariableValue  Normal
-
 hi! link NERDTreeHelp      Comment
 hi! link NERDTreeExecFile  String
-
 hi! link VimwikiHeaderChar  markdownHeadingDelimiter
 hi! link VimwikiList        markdownListMarker
 hi! link VimwikiCode        markdownCode
 hi! link VimwikiCodeChar    markdownCodeDelimiter
-
 hi! link helpExample         String
 hi! link helpHeadline        Title
 hi! link helpSectionDelim    Comment
 hi! link helpHyperTextEntry  Statement
 hi! link helpHyperTextJump   Underlined
 hi! link helpURL             Underlined
-
 hi! link CtrlPMatch    String
 hi! link CtrlPLinePre  Comment
+hi! link shDerefVar  shDerefSimple
 
 hi mustacheSection           ctermfg=14  gui=bold cterm=bold
 hi mustacheMarker            guifg=#bb7744 ctermfg=6
 hi mustacheVariable          guifg=#c9a554 ctermfg=14
 hi mustacheVariableUnescape  guifg=#685742 ctermfg=9
 hi mustachePartial           guifg=#bb7744 ctermfg=13
+hi shDerefSimple             guifg=#B36D43 ctermfg=11
+hi SyntasticErrorSign        guifg=#B36D43 ctermfg=3  guibg=NONE ctermbg=NONE
+hi SyntasticWarningSign      guifg=#685742 ctermfg=1  guibg=NONE ctermbg=NONE
+hi netrwExe                  guifg=#685742 ctermfg=9
+hi netrwClassify             guifg=#666666 ctermfg=8  gui=bold cterm=bold
 
-hi shDerefSimple     guifg=#B36D43 ctermfg=11
-hi! link shDerefVar  shDerefSimple
-
-hi SyntasticErrorSign     guifg=#B36D43 ctermfg=3  guibg=NONE ctermbg=NONE
-hi SyntasticWarningSign   guifg=#685742 ctermfg=1  guibg=NONE ctermbg=NONE
-
-hi netrwExe       guifg=#685742 ctermfg=9
-hi netrwClassify  guifg=#666666 ctermfg=8  gui=bold cterm=bold
-hi LspBorderBG      guifg=#685742 ctermfg=1  guibg=#222222 ctermbg=0
-hi LspReferenceText  guibg=#1c1c1c ctermbg=234
-hi LspReferenceRead guibg=#1c1c1c ctermbg=234
-hi LspReferenceWrite  guibg=#1c1c1c ctermbg=234
-hi! link  DiagnosticError ErrorMsg
-hi! link DiagnosticWarn SyntasticWarningSign
-hi DiagnosticInfo guifg=#5f875f ctermfg=2
-hi DiagnosticHint guifg=#bb7744 ctermfg=6
-hi DiagnosticUnnecessary  guifg=#1c1c1c ctermfg=234
-hi DiagnosticVirtualTextError guifg=#B36D43 ctermfg=3 guibg=#222222 ctermbg=0
-hi DiagnosticVirtualTextWarn guifg=#685742 ctermfg=1 guibg=#222222 ctermbg=0
-hi DiagnosticVirtualTextInfo guifg=#bb7744 ctermfg=5 guibg=#222222 ctermbg=0
-hi DiagnosticVirtualTextHint guifg=#78824b ctermfg=4 guibg=#222222 ctermbg=0
-hi DiagnosticUnderlineError guifg=#B36D43 ctermfg=3 gui=underline cterm=underline
-hi DiagnosticUnderlineWarn guifg=#685742 ctermfg=1 gui=underline cterm=underline
-hi DiagnosticUnderlineInfo guifg=#bb7744 ctermfg=5 gui=underline cterm=underline
-hi DiagnosticUnderlineHint guifg=#78824b ctermfg=4 gui=underline cterm=underline
-hi! link LspSignatureActiveParameter Visual
-hi! link  LspCodeLens Comment
-hi! link  LspInfoBorder  BorderBG
+hi LspBorderBG                    guifg=#685742 ctermfg=1  guibg=#222222 ctermbg=0
+hi DiagnosticHint                 guifg=#bb7744 ctermfg=6
+hi DiagnosticHintFloating         guifg=#78824b ctermfg=4 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticInfo                 guifg=#5f875f ctermfg=2
+hi DiagnosticSignError            guifg=#B36D43 ctermfg=3 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
+hi DiagnosticSignHint             guifg=#78824b ctermfg=4 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
+hi DiagnosticSignInfo             guifg=#bb7744 ctermfg=5 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
+hi DiagnosticSignWarn             guifg=#685742 ctermfg=1 guibg=#1c1c1c ctermbg=234 gui=NONE cterm=NONE
+hi DiagnosticUnderlineError       guifg=#B36D43 ctermfg=3 gui=underline cterm=underline
+hi DiagnosticUnderlineHint        guifg=#78824b ctermfg=4 gui=underline cterm=underline
+hi DiagnosticUnderlineInfo        guifg=#bb7744 ctermfg=5 gui=underline cterm=underline
+hi DiagnosticUnderlineWarn        guifg=#685742 ctermfg=1 gui=underline cterm=underline
+hi DiagnosticUnnecessary          guifg=#666666 ctermfg=239 gui=underline cterm=underline
+hi DiagnosticVirtualTextError     guifg=#B36D43 ctermfg=3 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticVirtualTextHint      guifg=#78824b ctermfg=4 guibg=#222222 ctermbg=0
+hi DiagnosticVirtualTextInfo      guifg=#bb7744 ctermfg=5 guibg=#222222 ctermbg=0
+hi DiagnosticVirtualTextWarn      guifg=#685742 ctermfg=1 guibg=#222222 ctermbg=0
+hi DiagnosticVirtualTextWarning   guifg=#d7c483 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarning              guifg=#B36D43 ctermfg=3 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi DiagnosticWarningFloating      guifg=#d7c483 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi LspFloatWinNormal              guifg=#d7c483 ctermfg=187 guibg=#30234f ctermbg=236 gui=NONE cterm=NONE
+hi LspReferenceRead               guifg=#5f875f ctermfg=34 gui=Bold,undercurl cterm=Bold,undercurl guisp=#FD9720
+hi LspReferenceText               guibg=#1c1c1c ctermbg=234
+hi LspReferenceText               guibg=#343047 ctermbg=239 gui=Bold,undercurl cterm=Bold,undercurl guisp=#FD9720
+hi LspReferenceWrite              guifg=#5f875f ctermfg=34 gui=Bold,undercurl cterm=Bold,undercurl guisp=#FD9720
+hi LspSignatureActiveParameter    guifg=NONE ctermfg=NONE guibg=#5f875fctermbg=34 gui=Bold,underline,Italic cterm=Bold,underline,Italic guisp=#fbec9f
+hi! link DiagnosticErrorFloating      DiagnosticError
+hi! link DiagnosticFloatingError      DiagnosticError
+hi! link DiagnosticFloatingHint       DiagnosticHint
+hi! link DiagnosticFloatingInfo       DiagnosticInfo
+hi! link DiagnosticFloatingWarning    DiagnosticWarning
+hi! link DiagnosticUnderlineError     DiagnosticError
+hi! link DiagnosticError              ErrorMsg
+hi! link DiagnosticWarn               SyntasticWarningSign
+hi! link LspSignatureActiveParameter  Visual
+hi! link LspCodeLens                  Comment
+hi! link LspInfoBorder                BorderBG
