@@ -11,47 +11,47 @@ endif
 
 let colors_name="miasma"
 
-hi Normal              guibg=#222222 ctermbg=0
-hi Cursor              guifg=#222222 ctermfg=0     guibg=#685742 ctermbg=1
-hi CursorLine          guibg=#1c1c1c ctermbg=234   gui=NONE cterm=NONE
-hi MatchParen          guifg=#d7c483 ctermfg=7     guibg=NONE ctermbg=NONE  gui=bold,underline cterm=bold,underline
-hi Pmenu               guifg=#D7C483 ctermfg=15    guibg=#1c1c1c ctermbg=234
-hi PmenuThumb          guifg=#d7c483 ctermfg=15    guibg=#D7C483 ctermbg=7
-hi PmenuSBar           guibg=#666666 ctermbg=8
-hi PmenuSel            guifg=#222222 ctermfg=0     guibg=#78834b ctermbg=4
-hi ColorColumn         guibg=#222222 ctermbg=0
-hi SpellBad            guifg=#685742 ctermfg=1     ctermbg=NONE  gui=underline cterm=underline
-hi SpellCap            guifg=#5f875f ctermfg=10    ctermbg=NONE  gui=underline cterm=underline
-hi SpellRare           guifg=#B36D43 ctermfg=11    ctermbg=NONE  gui=underline cterm=underline
-hi SpellLocal          guifg=#bb7744 ctermfg=13    ctermbg=NONE  gui=underline cterm=underline
-hi NonText             guifg=#666666 ctermfg=8
-hi LineNr              guifg=#666666 ctermfg=8     guibg=#1c1c1c ctermbg=234
-hi CursorLineNr        guifg=#78824b ctermfg=12    guibg=#1c1c1c ctermbg=234
-hi Visual              guifg=#222222 ctermfg=0     guibg=#78824b ctermbg=12
-hi IncSearch           guifg=#222222 ctermfg=0     guibg=#bb7744 ctermbg=13    gui=NONE cterm=NONE
-hi Search              guifg=#222222 ctermfg=0     guibg=#5f875f ctermbg=10
-hi StatusLine          guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0     gui=bold cterm=bold
-hi StatusLineNC        guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=bold cterm=bold
-hi VertSplit           guifg=#1c1c1c ctermfg=234   guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
-hi TabLine             guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
-hi TabLineSel          guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0
-hi Folded              guifg=#B36D43 ctermfg=3     guibg=#222222 ctermbg=0
-hi Directory           guibg=#78824b ctermbg=12    guifg=#222222 ctermfg=0
-hi Title               guifg=#B36D43 ctermfg=3     gui=bold cterm=bold
-hi ErrorMsg            guifg=#b36d43 ctermfg=11    guibg=#222222 ctermbg=0
-hi DiffAdd             guifg=#222222 ctermfg=0     guibg=#5f875f ctermbg=2
-hi DiffChange          guifg=#222222 ctermfg=0     guibg=#685742 ctermbg=1
-hi DiffDelete          guifg=#222222 ctermfg=0     guibg=#B36D43 ctermbg=5
-hi DiffText            guifg=#222222 ctermfg=0     guibg=#c9a554 ctermbg=14
-hi User1               guifg=#D7C483 ctermfg=15    guibg=#bb7744 ctermbg=5
-hi User2               guifg=#D7C483 ctermfg=15    guibg=#666666 ctermbg=8
-hi User3               guifg=#D7C483 ctermfg=15    guibg=#B36D43 ctermbg=3
-hi User4               guifg=#D7C483 ctermfg=15    guibg=#222222 ctermbg=0
-hi User5               guifg=#D7C483 ctermfg=15    guibg=#bb7744 ctermbg=13
-hi User6               guifg=#D7C483 ctermfg=15    guibg=#c9a554 ctermbg=14
-hi User7               guifg=#D7C483 ctermfg=15    guibg=#78824b ctermbg=12
-hi User8               guifg=#D7C483 ctermfg=15    guibg=#B36D43 ctermbg=11
-hi User9               guifg=#D7C483 ctermfg=15    guibg=#666666 ctermbg=8
+hi Normal        guibg=#222222 ctermbg=0
+hi Cursor        guifg=#222222 ctermfg=0     guibg=#685742 ctermbg=1
+hi CursorLine    guibg=#1c1c1c ctermbg=234   gui=NONE cterm=NONE
+hi MatchParen    guifg=#d7c483 ctermfg=7     guibg=NONE ctermbg=NONE  gui=bold,underline cterm=bold,underline
+hi Pmenu         guifg=#D7C483 ctermfg=15    guibg=#1c1c1c ctermbg=234
+hi PmenuThumb    guifg=#d7c483 ctermfg=15    guibg=#D7C483 ctermbg=7
+hi PmenuSBar     guibg=#666666 ctermbg=8
+hi PmenuSel      guifg=#222222 ctermfg=0     guibg=#78834b ctermbg=4
+hi ColorColumn   guibg=#222222 ctermbg=0
+hi SpellBad      guifg=#685742 ctermfg=1     ctermbg=NONE  gui=underline cterm=underline
+hi SpellCap      guifg=#5f875f ctermfg=10    ctermbg=NONE  gui=underline cterm=underline
+hi SpellRare     guifg=#B36D43 ctermfg=11    ctermbg=NONE  gui=underline cterm=underline
+hi SpellLocal    guifg=#bb7744 ctermfg=13    ctermbg=NONE  gui=underline cterm=underline
+hi NonText       guifg=#666666 ctermfg=8
+hi LineNr        guifg=#666666 ctermfg=8     guibg=#1c1c1c ctermbg=234
+hi CursorLineNr  guifg=#78824b ctermfg=12    guibg=#1c1c1c ctermbg=234
+hi Visual        guifg=#222222 ctermfg=0     guibg=#78824b ctermbg=12
+hi IncSearch     guifg=#222222 ctermfg=0     guibg=#bb7744 ctermbg=13    gui=NONE cterm=NONE
+hi Search        guifg=#222222 ctermfg=0     guibg=#5f875f ctermbg=10
+hi StatusLine    guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0     gui=bold cterm=bold
+hi StatusLineNC  guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=bold cterm=bold
+hi VertSplit     guifg=#1c1c1c ctermfg=234   guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
+hi TabLine       guifg=#666666 ctermfg=8     guibg=#222222 ctermbg=0     gui=NONE cterm=NONE
+hi TabLineSel    guifg=#d7c483 ctermfg=7     guibg=#222222 ctermbg=0
+hi Folded        guifg=#B36D43 ctermfg=3     guibg=#1c1c1c ctermbg=0
+hi Directory     guifg=#78824b ctermfg=12    guibg=#1c1c1c ctermbg=0
+hi Title         guifg=#B36D43 ctermfg=3     gui=bold cterm=bold
+hi ErrorMsg      guifg=#b36d43 ctermfg=11    guibg=#222222 ctermbg=0
+hi DiffAdd       guifg=#222222 ctermfg=0     guibg=#5f875f ctermbg=2
+hi DiffChange    guifg=#222222 ctermfg=0     guibg=#685742 ctermbg=1
+hi DiffDelete    guifg=#222222 ctermfg=0     guibg=#B36D43 ctermbg=5
+hi DiffText      guifg=#222222 ctermfg=0     guibg=#c9a554 ctermbg=14
+hi User1         guifg=#D7C483 ctermfg=15    guibg=#bb7744 ctermbg=5
+hi User2         guifg=#D7C483 ctermfg=15    guibg=#666666 ctermbg=8
+hi User3         guifg=#D7C483 ctermfg=15    guibg=#B36D43 ctermbg=3
+hi User4         guifg=#D7C483 ctermfg=15    guibg=#222222 ctermbg=0
+hi User5         guifg=#D7C483 ctermfg=15    guibg=#bb7744 ctermbg=13
+hi User6         guifg=#D7C483 ctermfg=15    guibg=#c9a554 ctermbg=14
+hi User7         guifg=#D7C483 ctermfg=15    guibg=#78824b ctermbg=12
+hi User8         guifg=#D7C483 ctermfg=15    guibg=#B36D43 ctermbg=11
+hi User9         guifg=#D7C483 ctermfg=15    guibg=#666666 ctermbg=8
 hi! link CursorColumn  CursorLine
 hi! link SignColumn    LineNr
 hi! link WildMenu      Visual
@@ -89,9 +89,9 @@ hi htmlH1                   gui=bold cterm=bold
 hi htmlBold                 gui=bold cterm=bold
 hi htmlItalic               gui=underline cterm=underline
 hi htmlUnderline            gui=underline cterm=underline
+hi htmlUnderlineItalic      gui=underline cterm=underline
 hi htmlBoldItalic           gui=bold,underline cterm=bold,underline
 hi htmlBoldUnderline        gui=bold,underline cterm=bold,underline
-hi htmlUnderlineItalic      gui=underline cterm=underline
 hi htmlBoldUnderlineItalic  gui=bold,underline cterm=bold,underline
 hi! link htmlLink           Underlined
 hi! link htmlEndTag         htmlTag
@@ -142,27 +142,27 @@ hi! link gitCommitFile           Directory
 hi! link gitCommitUntrackedFile  gitCommitUnmergedFile
 hi! link gitCommitDiscardedType  gitCommitUnmergedType
 hi! link gitCommitDiscardedFile  gitCommitUnmergedFile
-hi! link vimSetSep    Delimiter
-hi! link vimContinue  Delimiter
-hi! link vimHiAttrib  Constant
+hi! link vimSetSep               Delimiter
+hi! link vimContinue             Delimiter
+hi! link vimHiAttrib             Constant
 
-hi lessVariable             guifg=#B36D43 ctermfg=11
-hi! link lessVariableValue  Normal
-hi! link NERDTreeHelp      Comment
-hi! link NERDTreeExecFile  String
-hi! link VimwikiHeaderChar  markdownHeadingDelimiter
-hi! link VimwikiList        markdownListMarker
-hi! link VimwikiCode        markdownCode
-hi! link VimwikiCodeChar    markdownCodeDelimiter
+hi lessVariable              guifg=#B36D43 ctermfg=11
+hi! link lessVariableValue   Normal
+hi! link NERDTreeHelp        Comment
+hi! link NERDTreeExecFile    String
+hi! link VimwikiHeaderChar   markdownHeadingDelimiter
+hi! link VimwikiList         markdownListMarker
+hi! link VimwikiCode         markdownCode
+hi! link VimwikiCodeChar     markdownCodeDelimiter
 hi! link helpExample         String
 hi! link helpHeadline        Title
 hi! link helpSectionDelim    Comment
 hi! link helpHyperTextEntry  Statement
 hi! link helpHyperTextJump   Underlined
 hi! link helpURL             Underlined
-hi! link CtrlPMatch    String
-hi! link CtrlPLinePre  Comment
-hi! link shDerefVar  shDerefSimple
+hi! link CtrlPMatch          String
+hi! link CtrlPLinePre        Comment
+hi! link shDerefVar          shDerefSimple
 
 hi mustacheSection           ctermfg=14  gui=bold cterm=bold
 hi mustacheMarker            guifg=#bb7744 ctermfg=6
@@ -212,3 +212,21 @@ hi! link DiagnosticWarn               SyntasticWarningSign
 hi! link LspSignatureActiveParameter  Visual
 hi! link LspCodeLens                  Comment
 hi! link LspInfoBorder                BorderBG
+
+hi TelescopeSelectionCaret   guifg=#d7c483 ctermfg=7 guibg=#78824b ctermbg=12
+hi TelescopeBorder           guifg=#685742 ctermfg=10 guibg=#1c1c1c ctermbg=234
+hi TelescopeTitle            guifg=#5f875f ctermfg=10 guibg=#1c1c1c ctermbg=234
+hi TelescopePromptBorder     guifg=#B36D43 ctermfg=3 guibg=#1c1c1c ctermbg=234
+hi! link TelescopeSelection          Visual
+hi! link TelescopePromptCounter      TelescopeBorder
+hi! link TelescopeResultsBorder      TelescopeBorder
+hi! link TelescopePreviewBorder      TelescopeBorder
+hi! link TelescopePromptTitle        TelescopeTitle
+hi! link TelescopeResultsTitle       TelescopeTitle
+hi! link TelescopePreviewTitle       TelescopeTitle
+hi! link TelescopeMatching           Special
+hi! link TelescopePromptPrefix       TelescopeTitle
+hi! link TelescopeResultsFileIcon    Special
+hi! link TelescopeResultsDiffChange  DiffChange
+hi! link TelescopeResultsDiffAdd     DiffAdd
+hi! link TelescopeResultsDiffDelete  DiffDelete
