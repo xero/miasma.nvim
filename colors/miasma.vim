@@ -230,3 +230,10 @@ hi! link TelescopeResultsFileIcon    Special
 hi! link TelescopeResultsDiffChange  DiffChange
 hi! link TelescopeResultsDiffAdd     DiffAdd
 hi! link TelescopeResultsDiffDelete  DiffDelete
+
+hi IndentBlanklineChar                guifg=#242d1d ctermfg=235 gui=nocombine
+hi IndentBlanklineSpaceChar           guifg=#242d1d ctermfg=235 gui=nocombine
+hi IndentBlanklineSpaceCharBlankline  guifg=#242d1d ctermfg=235 gui=nocombine
+hi IndentBlanklineContextChar         guifg=#43492a ctermfg=238 gui=nocombine
+hi IndentBlanklineContextSpaceChar    guifg=#43492a ctermfg=238 gui=nocombine
+hi IndentBlanklineContextStart        guifg=#43492a ctermfg=238 gui=nocombine
