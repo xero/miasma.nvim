@@ -1,13 +1,13 @@
-```
-┏┏┓o┳━┓┓━┓┏┏┓┳━┓
-┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
-┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
-```
-a fog descends upon your editor
-https://github.com/xero/miasma.nvim
-
 # miasma.nvim
 a pastel colorscheme inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim)
+
+```
+    ┏┏┓ o ┳━┓ ┓━┓ ┏┏┓ ┳━┓
+    ┃┃┃ ┃ ┃━┫ ┗━┓ ┃┃┃ ┃━┫
+    ┛ ┇ ┇ ┛ ┇ ━━┛ ┛ ┇ ┛ ┇
+a fog descends upon your editor
+https://github.com/xero/miasma.nvim
+```
 
 ## installation
 
