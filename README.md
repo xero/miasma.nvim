@@ -1,5 +1,6 @@
 # miasma.nvim
 a pastel colorscheme inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim)
+
 supports tree-sitter, lazy, which-key, lsp diagnostics, and more.
 
 ```
@@ -54,3 +55,4 @@ lots more details on using `lush` in their repo: [rktjmp/lush.nvim](https://gith
 
 ## screenshots
 
+![](https://raw.githubusercontent.com/xero/dotfiles/vps/preview.jpg)
