@@ -1,10 +1,10 @@
 #!/bin/bash
-nvim --headless  +Shipwright +qa &>/dev/null
+nvim --headless +Shipwright +qa
 cat << x0 > ./colors/miasma.vim
-" ┏┏┓o┳━┓┓━┓┏┏┓┳━┓
-" ┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
-" ┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
-"
+"     ┏┏┓ o ┳━┓ ┓━┓ ┏┏┓ ┳━┓
+"     ┃┃┃ ┃ ┃━┫ ┗━┓ ┃┃┃ ┃━┫
+"     ┛ ┇ ┇ ┛ ┇ ━━┛ ┛ ┇ ┛ ┇
+" a fog descends upon your editor
 " https://github.com/xero/miasma.nvim
 
 set background=dark

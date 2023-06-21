@@ -1,7 +1,7 @@
-" ┏┏┓o┳━┓┓━┓┏┏┓┳━┓
-" ┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
-" ┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
-"
+"     ┏┏┓ o ┳━┓ ┓━┓ ┏┏┓ ┳━┓
+"     ┃┃┃ ┃ ┃━┫ ┗━┓ ┃┃┃ ┃━┫
+"     ┛ ┇ ┇ ┛ ┇ ━━┛ ┛ ┇ ┛ ┇
+" a fog descends upon your editor
 " https://github.com/xero/miasma.nvim
 
 set background=dark
