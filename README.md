@@ -15,7 +15,9 @@ https://github.com/xero/miasma.nvim
 
 ## flavors
 
-this theme is available in a classic vim compatible format, optimized lua, and a development lua version. you can install different flavors by using the corresponding branches:
+this theme is available in a classic vim compatible format, optimized lua, and a development lua version. 
+
+you can install different flavors by using the corresponding branches:
 
 * [main](https://github.com/xero/miasma.nvim/tree/main) - classic vim version
 * lua - optimized lua version (coming soon)
@@ -58,18 +60,22 @@ set the colorscheme with the builtin command `:colorscheme`
 
 ## customization
 
-this theme is built with `lush.nvim`, so the customization and is quite easy.
+this theme is built with `lush.nvim`, so customization is quite easy.
+
 first, checkout "[the dev branch](https://github.com/xero/miasma.nvim/tree/dev)", `git fetch origin dev && git checkout dev`,
+
 open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`.
+
 then adjust colors to suit your taste with real-time feedback.
 checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme.
-lots more details on using `lush` in their repo: [github.com/rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim).
+
+lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
 
 ## extras
 
 the theme has been ported to a few different apps, and are included in the `extras` directory:
 
-* `miasma.Xresources` - colors for xclients (e.g. unix terminal emulators like urxvt) [*](https://wiki.archlinux.org/title/x_resources)
+* `miasma.Xresources` - colors for [xclients](https://wiki.archlinux.org/title/x_resources) (e.g. unix terminal emulators)
 * `miasma.itermcolors` - colors for [iterm2](https://iterm2.com)
 * `miasma.zsh` - colors for [zsh](https://zsh.org)
 
