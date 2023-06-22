@@ -1,14 +1,12 @@
 # miasma.nvim -- "the dev branch"
 
-a pastel colorscheme inspired by the woods
-
 ```
 ┏┏┓o┳━┓┓━┓┏┏┓┳━┓
 ┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
 ┛ ┇┇┛ ┇━━┛┛ ┇┛ ┇
+```
 a fog descends upon your editor
 https://github.com/xero/miasma.nvim
-```
 
 ## dev installation
 
@@ -19,10 +17,10 @@ using `lazy`
 ```lua
 {
   "xero/miasma.nvim",
-  branch = "lua",
+  branch = "dev",
   dependencies = {
     "rktjmp/lush.nvim",
-	  "rktjmp/shipwright.nvim",
+    "rktjmp/shipwright.nvim",
   },
   lazy = false,
   priority = 1000,
