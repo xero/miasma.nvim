@@ -1,6 +1,6 @@
 # miasma.nvim ☁️
 
-a pastel colorscheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
+a color scheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
 
 supports treesitter, gitsigns, lazy, which-key, telescope, lsp diagnostics, and more.
 
@@ -54,17 +54,17 @@ vim.cmd("colorscheme miasma")
 
 ## usage
 
-set the colorscheme with the builtin command `:colorscheme`
+set the color scheme with the builtin command `:colorscheme`
 
 ## customization
 
-this theme is built with `lush.nvim`, so customizationis are quite easy. 
+this theme is built with `lush.nvim`, so customizations are quite easy. 
 
 first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev) branch `git fetch origin dev && git checkout dev`, open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback. checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme. lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
 
 ## extras
 
-the theme has been ported to a few different apps, and are included in the `extras` directory:
+this theme has been ported to a few different apps, and are included in the `extras` directory:
 
 * `miasma.Xresources` - colors for [xclients](https://wiki.archlinux.org/title/x_resources) (e.g. unix terminal emulators)
 * `miasma.itermcolors` - colors for [iterm2](https://iterm2.com)
