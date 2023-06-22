@@ -1,4 +1,4 @@
-# miasma.nvim
+# miasma.nvim ☁️
 
 a pastel colorscheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
 
@@ -58,7 +58,9 @@ set the colorscheme with the builtin command `:colorscheme`
 
 ## customization
 
-this theme is built with `lush.nvim`, so customization is quite easy. first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev)" branch `git fetch origin dev && git checkout dev`, open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback. checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme. lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
+this theme is built with `lush.nvim`, so customizationis are quite easy. 
+
+first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev) branch `git fetch origin dev && git checkout dev`, open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback. checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme. lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
 
 ## extras
 
@@ -69,3 +71,9 @@ the theme has been ported to a few different apps, and are included in the `extr
 * `miasma.zsh` - colors for [zsh](https://zsh.org)
 
 more on the way, and pr's for others are welcomed!
+
+# license
+
+![kopimi logo](https://gist.githubusercontent.com/xero/cbcd5c38b695004c848b73e5c1c0c779/raw/6b32899b0af238b17383d7a878a69a076139e72d/kopimi-sm.png)
+
+all files and scripts in this repo are released [CC0](https://creativecommons.org/publicdomain/zero/1.0/) / [kopimi](https://kopimi.com)! in the spirit of _freedom of information_, i encourage you to fork, modify, change, share, or do whatever you like with this project! `^c^v`
