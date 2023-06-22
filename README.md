@@ -2,10 +2,9 @@
 
 a pastel colorscheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
 
-supports treesitter, lazy, which-key, telescope, lsp diagnostics, and more.
+supports treesitter, gitsigns, lazy, which-key, telescope, lsp diagnostics, and more.
 
 ![](https://raw.githubusercontent.com/xero/dotfiles/vps/preview.jpg)
-
 ```
     ┏┏┓ o ┳━┓ ┓━┓ ┏┏┓ ┳━┓
     ┃┃┃ ┃ ┃━┫ ┗━┓ ┃┃┃ ┃━┫
