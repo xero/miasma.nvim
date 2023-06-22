@@ -32,10 +32,12 @@ using `lazy`
 
 ## customization
 
-this theme is built with `lush.nvim`, so the customization and is quite easy.
-open `lua/lush_theme/miasma.lua` and execute `:Lushify`. for the best experience,
-i suggest disabling LSP and enabeling a colorizer like [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors) or [NvChad-colorizer](https://github.com/NvChad/nvim-colorizer.lua).
-then adjust colors to suit your taste with real-time feedback.
+this theme is built with `lush.nvim`, so customizationis are quite easy.
+
+open `lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback.
+
+for the best experience, i suggest disabling LSP and enabeling a colorizer like [nvim-highlight-colors](https://github.com/brenoprata10/nvim-highlight-colors) or [NvChad-colorizer](https://github.com/NvChad/nvim-colorizer.lua).
+
 lots more details on using `lush` in their repo: [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim).
 
 ## building
