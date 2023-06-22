@@ -1,7 +1,10 @@
 # miasma.nvim
-a pastel colorscheme inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
+
+a pastel colorscheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
 
 supports treesitter, lazy, which-key, telescope, lsp diagnostics, and more.
+
+![](https://raw.githubusercontent.com/xero/dotfiles/vps/preview.jpg)
 
 ```
     ┏┏┓ o ┳━┓ ┓━┓ ┏┏┓ ┳━┓
@@ -23,7 +26,7 @@ using `lazy`
   config = function()
     vim.cmd("colorscheme miasma")
   end,
-},
+}
 ```
 
 using `plug`
@@ -53,6 +56,3 @@ then adjust colors to suit your taste with real-time feedback.
 checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme.
 lots more details on using `lush` in their repo: [rktjmp/lush.nvim](https://github.com/rktjmp/lush.nvim).
 
-## screenshots
-
-![](https://raw.githubusercontent.com/xero/dotfiles/vps/preview.jpg)
