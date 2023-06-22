@@ -15,9 +15,7 @@ https://github.com/xero/miasma.nvim
 
 ## flavors
 
-this theme is available in a classic vim compatible format, optimized lua, and a development lua version. 
-
-you can install different flavors by using the corresponding branches:
+this theme is available in a classic vim compatible format, optimized lua, and a development lua version. you can install different flavors by using the corresponding branches:
 
 * [main](https://github.com/xero/miasma.nvim/tree/main) - classic vim version
 * lua - optimized lua version (coming soon)
@@ -60,16 +58,7 @@ set the colorscheme with the builtin command `:colorscheme`
 
 ## customization
 
-this theme is built with `lush.nvim`, so customization is quite easy.
-
-first, checkout "[the dev branch](https://github.com/xero/miasma.nvim/tree/dev)", `git fetch origin dev && git checkout dev`,
-
-open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`.
-
-then adjust colors to suit your taste with real-time feedback.
-checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme.
-
-lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
+this theme is built with `lush.nvim`, so customization is quite easy. first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev)" branch `git fetch origin dev && git checkout dev`, open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback. checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme. lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
 
 ## extras
 
