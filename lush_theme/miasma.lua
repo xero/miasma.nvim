@@ -1,4 +1,6 @@
+-- call :Lushify
 local lush = require("lush")
+---@diagnostic disable
 local hsl = lush.hsl
 local hsluv = lush.hsluv
 local theme = lush(function(injected_functions)
@@ -47,10 +49,12 @@ local theme = lush(function(injected_functions)
     CursorLineFold                             { FoldColumn },
     DiffAdd                                    { fg="#222222", bg="#5f875f", },
     TelescopeResultsDiffAdd                    { DiffAdd },
+    sym"@text.diff.add"                        { DiffAdd},
     DiffChange                                 { fg="#222222", bg="#685742", },
     TelescopeResultsDiffChange                 { DiffChange },
     DiffDelete                                 { fg="#222222", gui="bold", bg="#b36d43", },
     TelescopeResultsDiffDelete                 { DiffDelete },
+    sym"@text.diff.delete"                     { DiffDelete },
     DiffText                                   { fg="#222222", gui="bold", bg="#c9a554", },
     SignColumn                                 { fg="#666666", bg="#1c1c1c" },
     CursorLineSign                             { SignColumn },
@@ -474,4 +478,5 @@ local theme = lush(function(injected_functions)
     lualine_transitional_lualine_x_fileformat_to_StatusLine         { fg="#78824b", bg="#222222", },
   }
 end)
+---@diagnostic disable
 return theme

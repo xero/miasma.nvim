@@ -259,6 +259,8 @@ hi! link TelescopeResultsDiffDelete DiffDelete
 hi! link TelescopeResultsFileIcon Special
 hi! link TelescopeResultsTitle TelescopeTitle
 hi! link TelescopeSelection Visual
+hi! link @text.diff.add DiffAdd
+hi! link @text.diff.delete DiffDelete
 hi! link @text.literal Comment
 hi! link @text.reference Identifier
 hi! link @text.title Title
