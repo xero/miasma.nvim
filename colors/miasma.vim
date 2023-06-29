@@ -196,6 +196,11 @@ hi! link markdownCodeDelimiter NonText
 hi! link markdownHeadingRule NonText
 hi! link markdownLinkDelimiter Delimiter
 hi! link markdownURLDelimiter Delimiter
+hi! link MasonHeaderSecondary LazyButtonActive
+hi! link MasonHighlightBlockBold LazyButtonActive
+hi! link MasonHighlightBlock LazyButtonActive
+hi! link MasonMutedBlockBold MasonHighlight
+hi! link MasonMutedBlock MasonMuted
 hi! link @method Function
 hi! link MsgSeparator StatusLine
 hi! link @namespace Identifier
@@ -349,6 +354,15 @@ hi lualine_x_progress guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi lualine_x_searchcount guifg=#1c1c1c guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
 hi markdownBold guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 hi markdownItalic guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi MasonError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi MasonHeader guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi MasonHeading guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi MasonHighlightBlockBoldSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi MasonHighlightBlockSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi MasonHighlight guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
+hi MasonHighlightSecondary guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi MasonMuted guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi MasonWarning guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi MatchParen guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
 hi ModeMsg guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
 hi MoreMsg guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
@@ -474,11 +488,11 @@ hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Visual guifg=#222222 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi WarningMsg guifg=red guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WhichKeyBorder guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi WhichKeyDesc guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi WhichKeyFloat guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi WhichKeyGroup guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi WhichKeyDesc guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi WhichKeyFloat guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi WhichKeyGroup guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi WhichKey guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi WhichKeySeparator guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi WhichKeySeparator guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi WhichKeyValue guifg=#c9a554 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WildMenu guifg=black guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
 hi WinBar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=bold
