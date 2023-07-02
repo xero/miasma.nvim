@@ -47,9 +47,11 @@ hi DiagnosticVirtualTextWarning guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE g
 hi DiagnosticWarn guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticWarningFloating guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticWarning guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi DiffAdded guifg=#5f875f guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi DiffAdd guifg=#222222 guibg=#5f875f guisp=NONE blend=NONE gui=NONE
 hi DiffChange guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
 hi DiffDelete guifg=#222222 guibg=#b36d43 guisp=NONE blend=NONE gui=bold
+hi DiffRemoved guifg=#b36d43 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi DiffText guifg=#222222 guibg=#c9a554 guisp=NONE blend=NONE gui=bold
 hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Error guifg=#c2c2b0 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
@@ -486,7 +488,7 @@ hi User8 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi User9 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
 hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Visual guifg=#222222 guibg=#78824b guisp=NONE blend=NONE gui=NONE
-hi WarningMsg guifg=red guibg=NONE guisp=NONE blend=NONE gui=NONE
+hi WarningMsg guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WhichKeyBorder guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi WhichKeyDesc guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi WhichKeyFloat guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
