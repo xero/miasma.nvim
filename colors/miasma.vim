@@ -362,11 +362,11 @@ hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
 hi String guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticErrorSign guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticWarningSign guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TabLineFill guifg=#c9a554 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi TabLineFill guifg=#c9a554 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi TabLine guifg=#666666 guibg=#111111 guisp=NONE blend=NONE gui=NONE
 hi TabLineSel guifg=#111111 guibg=#78834b guisp=NONE blend=NONE gui=bold
 hi TabLineSelSep guifg=#78834b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
-hi TabLineSep guifg=#111111 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+hi TabLineSep guifg=#111111 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiIcon guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiSelection guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
