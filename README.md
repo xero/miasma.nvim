@@ -4,7 +4,7 @@ a color scheme for `{neo,}vim` inspired by the woods, built using [lush](https:/
 
 supports treesitter, gitsigns, lazy, which-key, telescope, lsp diagnostics, and more.
 
-![](https://raw.githubusercontent.com/xero/dotfiles/vps/preview.jpg)
+![theme preview](https://raw.githubusercontent.com/xero/miasma.nvim/main/preview.png)
 ```
 ┏┏┓o┳━┓┓━┓┏┏┓┳━┓
 ┃┃┃┃┃━┫┗━┓┃┃┃┃━┫
@@ -58,7 +58,7 @@ set the color scheme with the builtin command `:colorscheme`
 
 ## customization
 
-this theme is built with `lush.nvim`, so customizations are quite easy. 
+this theme is built with `lush.nvim`, so customizations are quite easy.
 
 first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev) branch `git fetch origin dev && git checkout dev`, open the lua theme `nvim lua/lush_theme/miasma.lua` and execute `:Lushify`. then adjust colors to suit your taste with real-time feedback. checkout [the dev branch readme](https://github.com/xero/miasma.nvim/blob/dev/README.md) for details on building the optimized colorscheme. lots more details on using `lush` in [their repo](https://github.com/rktjmp/lush.nvim).
 
