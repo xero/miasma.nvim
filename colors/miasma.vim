@@ -33,11 +33,11 @@ hi DiagnosticSignError guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NON
 hi DiagnosticSignHint guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiagnosticSignInfo guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiagnosticSignWarn guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
-hi DiagnosticUnderlineError guifg=#b36d43 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
-hi DiagnosticUnderlineHint guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
-hi DiagnosticUnderlineInfo guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
-hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=#78824b blend=NONE gui=underline
-hi DiagnosticUnderlineWarn guifg=#685742 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
+hi DiagnosticUnderlineError guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineHint guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineInfo guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineOk guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi DiagnosticUnderlineWarn guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticUnnecessary guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi DiagnosticVirtualTextError guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi DiagnosticVirtualTextHint guifg=#78824b guibg=#222222 guisp=NONE blend=NONE gui=NONE
