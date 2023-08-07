@@ -1,11 +1,9 @@
-# Colors (Miasma)
+# colors (miasma) https://github.com/xero/miasma.nvim
 colors:
-  # Default colors
   primary:
     background: "#222222"
     foreground: "#c2c2b0"
 
-  # Normal colors
   normal:
     black: "#222222"
     red: "#685742"
@@ -16,7 +14,6 @@ colors:
     cyan: "#c9a554"
     white: "#d7c483"
 
-  # Bright colors
   bright:
     black: "#666666"
     red: "#685742"
