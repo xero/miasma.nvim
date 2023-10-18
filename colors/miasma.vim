@@ -130,6 +130,7 @@ hi! link @constant Constant
 hi! link @constructor Special
 hi! link CtrlPLinePre Comment
 hi! link CtrlPMatch String
+hi! link CurSearch Search
 hi! link CursorLineFold FoldColumn
 hi! link CursorLineSign SignColumn
 hi! link Debug Special
@@ -255,6 +256,7 @@ hi! link Substitute Search
 hi! link Tag Special
 hi! link TelescopeMatching Special
 hi! link TelescopePreviewBorder TelescopeBorder
+hi! link TelescopePreviewLine TelescopeSelection
 hi! link TelescopePreviewTitle TelescopeTitle
 hi! link TelescopePromptCounter TelescopeBorder
 hi! link TelescopePromptPrefix TelescopeTitle
@@ -378,7 +380,6 @@ hi TelescopePreviewDirectory guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NON
 hi TelescopePreviewExecute guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewGroup guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewHyphen guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TelescopePreviewLine guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewLink guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewMatch guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewMessageFillchar guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
