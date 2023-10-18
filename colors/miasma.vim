@@ -132,6 +132,7 @@ hi! link CtrlPLinePre Comment
 hi! link CtrlPMatch String
 hi! link CursorLineFold FoldColumn
 hi! link CursorLineSign SignColumn
+hi! link CurSearch Search
 hi! link Debug Special
 hi! link Define PreProc
 hi! link DiagnosticErrorFloating DiagnosticError
@@ -255,6 +256,7 @@ hi! link Substitute Search
 hi! link Tag Special
 hi! link TelescopeMatching Special
 hi! link TelescopePreviewBorder TelescopeBorder
+hi! link TelescopePreviewLine TelescopeSelection
 hi! link TelescopePreviewTitle TelescopeTitle
 hi! link TelescopePromptCounter TelescopeBorder
 hi! link TelescopePromptPrefix TelescopeTitle
