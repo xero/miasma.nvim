@@ -8,7 +8,7 @@ Color=34,34,34
 
 [Color0Intense]
 Bold=false
-Color=34,34,34
+Color=102,102,102
 
 [Color8]
 Bold=false
@@ -108,11 +108,11 @@ Color=187,119,68
 
 [Color6]
 Bold=false
-Color=187,119,68
+Color=201,165,84
 
 [Color6Intense]
 Bold=false
-Color=187,119,68
+Color=201,165,84
 
 [Color14]
 Bold=false
@@ -127,6 +127,14 @@ Bold=false
 Color=215,196,131
 
 [Color7Intense]
+Bold=false
+Color=215,196,131
+
+[Color15]
+Bold=false
+Color=215,196,131
+
+[Color15Intense]
 Bold=false
 Color=215,196,131
 
