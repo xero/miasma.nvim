@@ -1,146 +1,122 @@
 [Background]
-Bold=false
 Color=34,34,34
 
+[BackgroundIntense]
+Color=0,0,0
+
 [Color0]
-Bold=false
 Color=34,34,34
 
 [Color0Intense]
-Bold=false
 Color=102,102,102
 
 [Color8]
-Bold=false
 Color=102,102,102
 
 [Color8Intense]
-Bold=false
 Color=102,102,102
 
 [Color1]
-Bold=false
 Color=104,87,66
 
 [Color1Intense]
-Bold=false
 Color=104,87,66
 
 [Color9]
-Bold=false
 Color=104,87,66
 
 [Color9Intense]
-Bold=false
 Color=104,87,66
 
 [Color2]
-Bold=false
 Color=95,135,95
 
 [Color2Intense]
-Bold=false
 Color=95,135,95
 
 [Color10]
-Bold=false
 Color=95,135,95
 
 [Color10Intense]
-Bold=false
 Color=95,135,95
 
 [Color3]
-Bold=false
 Color=179,109,67
 
 [Color3Intense]
-Bold=false
 Color=179,109,67
 
 [Color11]
-Bold=false
 Color=179,109,67
 
 [Color11Intense]
-Bold=false
 Color=179,109,67
 
 [Color4]
-Bold=false
 Color=120,130,75
 
 [Color4Intense]
-Bold=false
 Color=120,130,75
 
 [Color12]
-Bold=false
 Color=120,130,75
 
 [Color12Intense]
-Bold=false
 Color=120,130,75
 
 [Color4]
-Bold=false
 Color=120,130,75
 
 [Color4Intense]
-Bold=false
 Color=120,130,75
 
 [Color5]
-Bold=false
 Color=187,119,68
 
 [Color5Intense]
-Bold=false
 Color=187,119,68
 
 [Color13]
-Bold=false
 Color=187,119,68
 
 [Color13Intense]
-Bold=false
 Color=187,119,68
 
 [Color6]
-Bold=false
 Color=201,165,84
 
 [Color6Intense]
-Bold=false
 Color=201,165,84
 
 [Color14]
-Bold=false
 Color=201,165,84
 
 [Color14Intense]
-Bold=false
 Color=201,165,84
 
 [Color7]
-Bold=false
 Color=215,196,131
 
 [Color7Intense]
-Bold=false
 Color=215,196,131
 
 [Color15]
-Bold=false
 Color=215,196,131
 
 [Color15Intense]
-Bold=false
 Color=215,196,131
 
+[Color16]
+Color=34,34,34
+
+[Color16Intense]
+Color=34,34,34
+
 [Foreground]
-Bold=false
 Color=194,194,176
+
+[ForegroundIntense]
+Color=255,255,255
 
 [General]
 Description=Miasma color scheme
