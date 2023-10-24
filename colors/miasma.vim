@@ -80,11 +80,12 @@ hi htmlTag guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi htmlTagName guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi htmlUnderline guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
 hi htmlUnderlineItalic guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=underline
+hi IblIndent guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
+hi IblScope guifg=#43492a guibg=NONE guisp=NONE blend=NONE gui=nocombine
+hi IblWhitespace guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi Identifier guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi Ignore guifg=#444444 guibg=NONE guisp=NONE blend=NONE gui=underline
 hi IncSearch guifg=#222222 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
-hi IndentBlanklineChar guifg=#242d1d guibg=NONE guisp=NONE blend=NONE gui=nocombine
-hi IndentBlanklineContextChar guifg=#43492a guibg=NONE guisp=NONE blend=NONE gui=nocombine
 hi Keyword guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyButtonActive guifg=#222222 guibg=#78834b guisp=NONE blend=NONE gui=NONE
 hi LazyButton guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
@@ -172,10 +173,6 @@ hi! link helpURL Underlined
 hi! link htmlEndTag htmlTag
 hi! link htmlLink Underlined
 hi! link Include PreProc
-hi! link IndentBlanklineContextSpaceChar IndentBlanklineContextChar
-hi! link IndentBlanklineContextStart IndentBlanklineContextChar
-hi! link IndentBlanklineSpaceCharBlankline IndentBlanklineChar
-hi! link IndentBlanklineSpaceChar IndentBlanklineChar
 hi! link javaScriptBraces Delimiter
 hi! link javaScript Normal
 hi! link @keyword Keyword
