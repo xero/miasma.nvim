@@ -23,7 +23,7 @@ let s:MiasmaRed = '#b36d43'
 let s:MiasmaGreen = '#78824b'
 let s:MiasmaYellow = '#c9a554'
 let s:MiasmaBlue = '#8da1b9'
-let s:MiasmaMagenta = s:MiasmaMagenta
+let s:MiasmaMagenta = '#8cadc0'
 let s:MiasmaCyan = '#c2c2b0'
 let s:MiasmaWhite = '#d7c483'
 
