@@ -69,7 +69,8 @@ this theme has been ported to a few different apps, and are included in the `ext
 * `miasma.Xresources` - colors for [xclients](https://wiki.archlinux.org/title/x_resources) (e.g. unix terminal emulators)
 * `miasma.itermcolors` - colors for [iterm2](https://iterm2.com)
 * `miasma.zsh` - colors for [zsh](https://zsh.org)
-* `miasma.yml` - colors for [alacritty](https://alacritty.org)
+* `miasma.yml` - colors for [alacritty](https://alacritty.org) (yml format)
+* `miasma.toml` - colors for [alacritty](https://alacritty.org) (toml format)
 * `miasma.colorscheme` - colors for [qterminal](https://github.com/lxqt/qterminal)
 
 more on the way, and pr's for others are welcomed!
