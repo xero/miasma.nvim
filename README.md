@@ -67,10 +67,11 @@ first, checkout the [dev](https://github.com/xero/miasma.nvim/tree/dev) branch `
 this theme has been ported to a few different apps, and are included in the `extras` directory:
 
 * `miasma.Xresources` - colors for [xclients](https://wiki.archlinux.org/title/x_resources) (e.g. unix terminal emulators)
-* `miasma.itermcolors` - colors for [iterm2](https://iterm2.com)
-* `miasma.zsh` - colors for [zsh](https://zsh.org)
-* `miasma.yml` - colors for [alacritty](https://alacritty.org)
-* `miasma.colorscheme` - colors for [qterminal](https://github.com/lxqt/qterminal)
+* `miasma.itermcolors` - colors for [iterm2](https://iterm2.com "iterm terminal official website")
+* `miasma.zsh` - colors for [zsh](https://zsh.org "z shell official website")
+* `miasma.yml` - colors for [alacritty](https://alacritty.org "alacritty terminal official website")
+* `miasma.conf` - colors for [kitty](https://sw.kovidgoyal.net/kitty/ "kitty terminal official page")
+* `miasma.colorscheme` - colors for [qterminal](https://github.com/lxqt/qterminal "qterminal official repository")
 
 more on the way, and pr's for others are welcomed!
 
