@@ -18,10 +18,16 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
     hi Normal guifg=#D7C483 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi NormalFloat guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopeBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopePromptBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopeTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 else
     hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
+    hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 endif
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -63,7 +69,6 @@ hi DiffChange guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
 hi DiffDelete guifg=#222222 guibg=#b36d43 guisp=NONE blend=NONE gui=bold
 hi DiffRemoved guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiffText guifg=#222222 guibg=#c9a554 guisp=NONE blend=NONE gui=bold
-hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Error guifg=#c2c2b0 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi ErrorMsg guifg=#b36d43 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi FloatShadow guifg=NONE guibg=#101010 guisp=NONE blend=NONE gui=NONE
@@ -215,7 +220,7 @@ hi! link MsgSeparator StatusLine
 hi! link @namespace Identifier
 hi! link NERDTreeExecFile String
 hi! link NERDTreeHelp Comment
-hi! link NormalFloat Pmenu
+" hi! link NormalFloat Pmenu
 hi! link @number Number
 hi! link NvimArrow Delimiter
 hi! link NvimColon Delimiter
@@ -374,7 +379,6 @@ hi TabLine guifg=#666666 guibg=#111111 guisp=NONE blend=NONE gui=NONE
 hi TabLineSel guifg=#111111 guibg=#78834b guisp=NONE blend=NONE gui=bold
 hi TabLineSelSep guifg=#78834b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
 hi TabLineSep guifg=#111111 guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiIcon guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiSelection guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -397,7 +401,6 @@ hi TelescopePreviewSocket guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewSticky guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewUser guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewWrite guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TelescopePromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopePromptNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsClass guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -415,7 +418,6 @@ hi TelescopeResultsSpecialComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gu
 hi TelescopeResultsStruct guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsVariable guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeSelectionCaret guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
-hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TermCursor guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
 hi Title guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Todo guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
