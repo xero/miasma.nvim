@@ -14,6 +14,28 @@ endif
 let colors_name="miasma"
 let g:colors_name="miasma"
 
+if exists("g:miasma_transparent") && g:miasma_transparent>= 1
+    hi Normal guifg=#D7C483 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi LineNr guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi VertSplit guifg=#1c1c1c guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopeBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopePromptBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopeTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
+    hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
+else
+    hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
+    hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
+    hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi TelescopePromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
+    hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
+endif
+
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi ColorColumn guifg=NONE guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Comment guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -53,7 +75,6 @@ hi DiffChange guifg=#222222 guibg=#685742 guisp=NONE blend=NONE gui=NONE
 hi DiffDelete guifg=#222222 guibg=#b36d43 guisp=NONE blend=NONE gui=bold
 hi DiffRemoved guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi DiffText guifg=#222222 guibg=#c9a554 guisp=NONE blend=NONE gui=bold
-hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Error guifg=#c2c2b0 guibg=#bb7744 guisp=NONE blend=NONE gui=NONE
 hi ErrorMsg guifg=#b36d43 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi FloatShadow guifg=NONE guibg=#101010 guisp=NONE blend=NONE gui=NONE
@@ -120,7 +141,6 @@ hi LazyUrl guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi LazyValue guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi lCursor guifg=bg guibg=fg guisp=NONE blend=NONE gui=NONE
 hi lessVariable guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi! link @boolean Boolean
 hi! link Character Constant
 hi! link @comment Comment
@@ -311,7 +331,6 @@ hi mustacheVariableUnescape guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=N
 hi netrwClassify guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi netrwExe guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
-hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi phpIdentifier guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -356,8 +375,6 @@ hi SpellCap guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellRare guifg=#b36d43 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi Statement guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
-hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
-hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
 hi String guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticErrorSign guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticWarningSign guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -366,7 +383,6 @@ hi TabLine guifg=#666666 guibg=#111111 guisp=NONE blend=NONE gui=NONE
 hi TabLineSel guifg=#111111 guibg=#78834b guisp=NONE blend=NONE gui=bold
 hi TabLineSelSep guifg=#78834b guibg=#1c1c1c guisp=NONE blend=NONE gui=bold
 hi TabLineSep guifg=#111111 guibg=#222222 guisp=NONE blend=NONE gui=NONE
-hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiIcon guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeMultiSelection guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -389,7 +405,6 @@ hi TelescopePreviewSocket guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewSticky guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewUser guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopePreviewWrite guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
-hi TelescopePromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TelescopePromptNormal guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsClass guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -407,7 +422,6 @@ hi TelescopeResultsSpecialComment guifg=NONE guibg=NONE guisp=NONE blend=NONE gu
 hi TelescopeResultsStruct guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeResultsVariable guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi TelescopeSelectionCaret guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
-hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi TermCursor guifg=NONE guibg=NONE guisp=NONE blend=NONE gui=reverse
 hi Title guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi Todo guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold,underline
@@ -422,7 +436,6 @@ hi User6 guifg=#d7c483 guibg=#c9a554 guisp=NONE blend=NONE gui=NONE
 hi User7 guifg=#d7c483 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi User8 guifg=#d7c483 guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi User9 guifg=#d7c483 guibg=#666666 guisp=NONE blend=NONE gui=NONE
-hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
 hi Visual guifg=#222222 guibg=#78824b guisp=NONE blend=NONE gui=NONE
 hi WarningMsg guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi WhichKeyBorder guifg=NONE guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
