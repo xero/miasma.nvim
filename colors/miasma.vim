@@ -23,11 +23,15 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
     hi TelescopePromptBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopeTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold
+    hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 else
     hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
     hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
+    hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
 endif
 
 hi Boolean guifg=#78834b guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -369,8 +373,6 @@ hi SpellCap guifg=#5f875f guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellLocal guifg=#bb7744 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi SpellRare guifg=#b36d43 guibg=NONE guisp=#d7c483 blend=NONE gui=underline
 hi Statement guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=bold
-hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
-hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
 hi String guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticErrorSign guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi SyntasticWarningSign guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
