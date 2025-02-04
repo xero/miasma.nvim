@@ -23,12 +23,16 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
     hi TelescopePromptBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopeTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi Directory guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
-    hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=bold
-    hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
+    hi StatusLine guifg=#d7c483 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
+    hi StatusLineNC guifg=#666666 guibg=NONE guisp=NONE ctermbg=NONE blend=NONE gui=bold
 else
     hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
+    hi NormalFloat guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
+    hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi TelescopePromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
+    hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi Directory guifg=#78824b guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi StatusLine guifg=#d7c483 guibg=#222222 guisp=NONE blend=NONE gui=bold
     hi StatusLineNC guifg=#666666 guibg=#222222 guisp=NONE blend=NONE gui=bold
