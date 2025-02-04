@@ -226,7 +226,7 @@ hi! link MsgSeparator StatusLine
 hi! link @namespace Identifier
 hi! link NERDTreeExecFile String
 hi! link NERDTreeHelp Comment
-" hi! link NormalFloat Pmenu
+hi! link NormalFloat Pmenu
 hi! link @number Number
 hi! link NvimArrow Delimiter
 hi! link NvimColon Delimiter
@@ -331,7 +331,6 @@ hi mustacheVariableUnescape guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=N
 hi netrwClassify guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi netrwExe guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
-hi NormalFloat guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi phpIdentifier guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
