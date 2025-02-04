@@ -18,7 +18,6 @@ if exists("g:miasma_transparent") && g:miasma_transparent>= 1
     hi Normal guifg=#D7C483 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=NONE guisp=NONE blend=NONE gui=NONE
-    hi NormalFloat guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopeBorder guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopePromptBorder guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopeTitle guifg=#5f875f guibg=NONE guisp=NONE blend=NONE gui=NONE
@@ -29,7 +28,6 @@ else
     hi Normal guifg=#D7C483 guibg=#222222 guisp=NONE blend=NONE gui=NONE
     hi LineNr guifg=#666666 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi VertSplit guifg=#1c1c1c guibg=#222222 guisp=NONE blend=NONE gui=NONE
-    hi NormalFloat guifg=#d7c483 guibg=NONE guisp=NONE blend=NONE gui=NONE
     hi TelescopeBorder guifg=#685742 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi TelescopePromptBorder guifg=#b36d43 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
     hi TelescopeTitle guifg=#5f875f guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
@@ -333,6 +331,7 @@ hi mustacheVariableUnescape guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=N
 hi netrwClassify guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
 hi netrwExe guifg=#685742 guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NonText guifg=#666666 guibg=NONE guisp=NONE blend=NONE gui=bold
+hi NormalFloat guifg=#d7c483 guibg=#1c1c1c guisp=NONE blend=NONE gui=NONE
 hi Number guifg=#78824b guibg=NONE guisp=NONE blend=NONE gui=NONE
 hi NvimInternalError guifg=#1c1c1c guibg=#b36d43 guisp=NONE blend=NONE gui=NONE
 hi phpIdentifier guifg=#b36d43 guibg=NONE guisp=NONE blend=NONE gui=NONE
