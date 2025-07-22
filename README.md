@@ -1,5 +1,6 @@
 # miasma.nvim ☁️
 
+Fork of [xero/miasma.nvim](https://github.com/xero/miasma.nvim) with added transparency option  
 a color scheme for `{neo,}vim` inspired by the woods, built using [lush](https://github.com/rktjmp/lush.nvim) 👄
 
 supports treesitter, gitsigns, lazy, which-key, telescope, lsp diagnostics, and more.
@@ -29,10 +30,12 @@ using `lazy`
 
 ```lua
 {
-  "xero/miasma.nvim",
+  "0-Frostbite/miasma.nvim",
   lazy = false,
   priority = 1000,
   config = function()
+    -- Optional
+    -- vim.g.miasma_transparent = 1 -- Enable transparency
     vim.cmd("colorscheme miasma")
   end,
 }
@@ -41,19 +44,28 @@ using `lazy`
 using `plug`
 
 ```vim
-Plug 'xero/miasma.nvim'
+Plug '0-Frostbite/miasma.nvim'
+" Optional
+" let g:miasma_transparent = 1 -- Enable transparency
 colorscheme miasma
 ```
 
 using `packer`
 
 ```lua
-use {"xero/miasma.nvim"}
+use {
+    "0-Frostbite/miasma.nvim",
+    config = function()
+        -- Optional
+        -- vim.g.miasma_transparent = 1 -- Enable transparency
+    end,
+}
 vim.cmd("colorscheme miasma")
 ```
 
 ## usage
 
+enable transparency with `vim.g.miasma_transparent = 1` for lua or `let g:miasma_transparent = 1` for vim 
 set the color scheme with the builtin command `:colorscheme`
 
 ## customization
