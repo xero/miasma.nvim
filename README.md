@@ -74,6 +74,7 @@ this theme has been ported to a few different apps, and are included in the `ext
 * `miasma.toml` - colors for [alacritty](https://alacritty.org) (toml format)
 * `miasma.colorscheme` - colors for [qterminal](https://github.com/lxqt/qterminal)
 * `miasma.ghostty` - colors for [ghostty](https://ghostty.org/)
+* `miasma.kda` - colors for [zellij](https://zellij.dev/)
 
 more on the way, and pr's for others are welcomed!
 
